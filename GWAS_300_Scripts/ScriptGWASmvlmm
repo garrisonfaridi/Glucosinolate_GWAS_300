@@ -1,0 +1,11 @@
+module load gemma/0.98.4
+
+gemma \
+-lmm 1 \
+-maf 0.03 \
+-miss 0.1 \
+-bfile GEMMA_Inputs/genotypes_305 \
+-k  output/dat_tot_ForGEMMAGF_300_kmat.cXX.txt \
+-p GEMMA_Inputs/dat_tot_ForGemmaGF_300.csv \
+-n 14 15 16 17 \
+-o mvlmm_maf03_300_GF
